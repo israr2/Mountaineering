@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar
+{
+    background: linear-gradient(to right , rgb(0, 0, 255),rgb(5, 93, 255),skyblue);
+    margin-bottom: 0%;
+    padding: 0%;
+
+    border: none;
+    border-radius: 0%;
+}
+.navbar-brand
+{
+  color: #000;
+
+}
+.nav li a:hover
+{
+    background: gray;
+}
+.nav-lists
+{
+    height: 100%;
+
+transition: all .5s;}
+.nav-lists:hover
+{
+    background: rgb(0, 38, 255);
+}
+
+
+.footer 
+{
+    background: rgb(51, 48, 48);
+    width: 100%;
+    margin-left: 0%;
+    color: #fff;
+}
+.footer .col-xs-12
+{
+    
+    
+    margin-top: 17px;
+    margin-bottom: 17px;
+    width: 400px;
+    height: 250px;
+}
+.footer .col-xs-12 li{
+    margin-left: 10px;
+}
+.footer ul li a
+{
+    color: #fff;
+    transition: all .5s;
+}
+.footer ul li a:hover
+{
+    color: rgb(135, 152, 250);
+}
+.footer h2
+{
+    font-weight: bold;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.banner
+{
+    height: 200px;
+    width: 100%;
+    background: url(/images/banners/history.jpg) no-repeat;
+    background-position: center;
+    /* background: center; */
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+    
+}
+.banner-inner
+{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background: rgba(14, 14, 14, 0.3);
+    display: grid;
+    place-items: center;
+ 
+}
+.banner-inner h1
+{
+    margin: 0%;
+    padding: 5px;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #fff;
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+
+}
+
+.main-heading h1 
+{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.first
+{
+    font-size: 19px;
+    font-weight: bolder;
+    color: rgb(0, 153, 255);
+}
+.copyright
+{
+    background: #1d1d1d;
+    height: 50px;
+    width: 100%;
+    margin: 0%;
+    padding-top: 20px;
+    color: #fff;
+}
+.icons
+{
+    list-style-type: none;
+    display: flex;
+    
+}
+.icons li
+{
+    padding-right: 30px;
+    padding-top: 10px;
+    font-size: 30px;
+    transition: all .5s;
+}
+.fa-facebook:hover
+{
+    color: #3b5998;
+}
+.fa-instagram:hover
+{
+    color: orange;
+}
+.fa-twitter:hover
+{
+    color: #3b7e98;
+}
+.fa-linkedin:hover
+{
+    color: #3b5998;
+}
